@@ -4,3 +4,4 @@
 <div>
     @section('content')
 </div>
+
