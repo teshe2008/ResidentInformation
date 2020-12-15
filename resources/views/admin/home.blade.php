@@ -1,4 +1,2 @@
-@if (session('status'))
-{{session('status')}}
-'hello'
-@endif
+@extends("..layouts.app")
+<Menu></Menu>
