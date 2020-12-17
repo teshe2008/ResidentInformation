@@ -45,6 +45,8 @@
 @import'~bootstrap/dist/css/bootstrap.css';
 </style>
 
+</script>
+
 <script>
 export default {}
 </script>
