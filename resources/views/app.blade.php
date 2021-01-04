@@ -9,6 +9,12 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <style>
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    </style>
 </head>
 
 <body>

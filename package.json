@@ -27,6 +27,7 @@
         "@fortawesome/fontawesome-free": "^5.15.1",
         "vue-router": "^3.4.9",
         "vuejs-datatable": "^2.0.0-alpha.7",
-        "vuelidate": "^0.7.6"
+        "vuelidate": "^0.7.6",
+        "vuex": "^3.6.0"
     }
 }

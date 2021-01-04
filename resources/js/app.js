@@ -12,8 +12,8 @@ Vue.use(VueRouter)
 
 import App from './views/App'
 import Hello from './views/components/Hello'
-import Home from './views//components/Home'
-
+import Home from './views/components/Home'
+import sidebar from './views/components/sidebar'
 const router = new VueRouter({
     mode: 'history',
     routes: [
@@ -21,17 +21,25 @@ const router = new VueRouter({
             path: '/',
             name: 'home',
             component: Home
+
         },
         {
             path: '/hello',
             name: 'hello',
             component: Hello,
         },
+        {
+            path:'/sidebar',
+            name:'sidebar',
+            component: sidebar
+        },
+
+
     ],
 });
 
 const app = new Vue({
     el: '#app',
-    components: { App },
+    components: { App, sidebar },
     router,
 });

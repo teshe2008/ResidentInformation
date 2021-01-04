@@ -1,3 +1,10 @@
 <template>
-<p>This is the home page</p>
+<div>
+    <sidebar></sidebar>
+    <p>sdkjgksjdljgjgl</p>
+</div>
 </template>
+
+<script>
+export default {}
+</script>
